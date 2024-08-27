@@ -2,6 +2,8 @@ import json
 import redis as redis
 from flask import Flask, request
 from loguru import logger
+HISTORY_LENGTH = 10
+DATA_KEY = "engine_temperature"
 
 # import the flask web framework
 from flask import Flask
