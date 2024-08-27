@@ -1,7 +1,7 @@
 import requests as requests
 
 data = {
-    "engine_temperature": 0.3,
+    "engine_temperature": 0.15,
 }
 
 response = requests.post("http://0.0.0.0:8000/record", json=data)
